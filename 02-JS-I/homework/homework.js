@@ -93,7 +93,7 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num > 15){
+  if (num > 50){
     return true;
   } else {
     return false;
@@ -238,7 +238,7 @@ function esVocal(letra){
   //Escribe tu código aquí
   if(letra.length > 1){
     return "Dato incorrecto"
-  } else if(letra == a || letra == e || letra == i || letra == o || letra == u ) {
+  } else if(letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u" ) {
     return "Es vocal"
   } else {
     return "Dato incorrecto"
